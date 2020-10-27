@@ -1,0 +1,77 @@
+
+body {
+	background-color: orange;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+	.menu ul {
+		display: flex;
+		padding: 0;
+		width: center;
+		margin: 0 auto;
+		list-style: none;
+	}
+
+	.menu a {
+		display: block;
+		padding: 15px;
+		background-color: navy;
+		text-decoration: none;
+		color: #38edf3;
+	}
+
+	.menu a:hover {
+		background-color: #02741e;
+	}
+
+	.menu ul li ul {
+		display: none;
+	}
+
+	.menu ul li a:hover + ul, .menu ul li ul:hover {
+		display: block;
+    }
+    
+    .forma {
+        color: navy;
+	}
+	
+	.tabla {
+		margin: auto;
+	    color: red;
+	}
+
+h1{
+	color: black;
+	text-align: center;
+	}
+
+h2{
+	color: blue;
+	}
+
+h3{
+	color: white;
+	}
+
+h4{
+	color: whitesmoke;
+	}
+
+	.pregresp {
+		border: 1px solid blue;
+		padding: 10px;
+		width: 400px;
+		margin: 0 auto;
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		}
+		
+	.pregunta {
+		color: blue;
+		}
+		
+	.respuestas {
+		color: #000000;
+		}
