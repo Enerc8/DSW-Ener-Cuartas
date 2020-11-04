@@ -1,6 +1,6 @@
 
 body {
-	background-color: orange;
+	background-color: beige;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -56,11 +56,11 @@ h2{
 	}
 
 h3{
-	color: white;
+	color: black;
 	}
 
 h4{
-	color: whitesmoke;
+	color: blue;
 	}
 
 form {
@@ -71,4 +71,8 @@ form {
 table p { 
 	margin: auto;
 	width: center;
+}
+
+.titulo {
+	text-align: center;
 }
