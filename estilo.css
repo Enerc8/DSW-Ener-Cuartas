@@ -1,45 +1,59 @@
 
 body {
-	background-color: rgb(241, 242, 247);
+	background-color: rgb(233, 231, 231);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(182, 149, 58);
+	color: black;
 }
 
-	.menu ul {
-		display: flex;
-		padding: 0;
-		width: center;
-		margin: 0 auto;
-		list-style: none;
-	}
+* {
+	padding: 0px;
+	margin: 0px;
+}
 
-	.menu a {
-		display: block;
-		padding: 15px;
-		background-color: navy;
+# header {
+	margin:auto;
+	width: 800px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 26px;
+}
+	
+ul, ol {
+	list-style: none;
+}
+
+	.nav li a {
+		background-color:blue;
+		color:white;
 		text-decoration: none;
-		color: #38edf3;
-	}
-
-	.menu a:hover {
-		background-color: #02741e;
-	}
-
-	.menu ul li ul {
-		display: none;
-	}
-
-	.menu ul li a:hover + ul, .menu ul li ul:hover {
+		padding: 10px 15px;
 		display: block;
-    }
-    
+	}
+
+	.nav li a:hover{
+		background-color:orange;
+	}
+
+	.nav > li {
+		float: left;
+	}
+
+	.nav li ul {
+		display: none;
+		position: absolute;
+		min-width: 140px;
+	}
+
+	.nav li:hover > ul {
+		display: block;
+	}
+
     .forma {
         color: navy;
 	}
 	
 	.tabla {
 		margin: auto;
-	    color: red;
+	    color: black;
 	}
 
 h1{
@@ -58,10 +72,7 @@ h2{
 
 h3{
 	color: black;
-	}
-
-h4{
-	color: violet;
+	text-align: center;
 	}
 
 form {
@@ -75,5 +86,23 @@ table p {
 }
 
 .titulo {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+ul {
+	text-align: center;
+}
+
+form {
+	color: black;
+	margin: auto;
+}
+
+nav {
 	text-align: center;
 }
